@@ -1,0 +1,9 @@
+{
+    "python.testing.pytestArgs": [
+        ".",
+        "-k",
+        "test_solution_"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.autoTestDiscoverOnSaveEnabled": true
+}
