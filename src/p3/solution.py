@@ -1,5 +1,3 @@
-from sympy import primefactors
-
 def prime_factors(n: int) -> list[int]:
     """Returns a list of prime factors of n."""
     factors = []
@@ -10,9 +8,6 @@ def prime_factors(n: int) -> list[int]:
             n /= divisor
         divisor += 1
     return factors
-
-def prime_factors_sympy(n: int) -> list[int]:
-    return primefactors(n)
 
 def largest_prime_factor(n: int) -> int:
     """Returns the largest prime factor of n."""

@@ -19,5 +19,8 @@ def find_largest_palindrome(digits: int = 3) -> int:
                 largest = num
     return largest
 
+def solution(digits: int = 3) -> int:
+    return find_largest_palindrome(digits)
+
 if __name__ == '__main__':
-    print(find_largest_palindrome(3))
+    print(solution())
